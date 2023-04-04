@@ -28,3 +28,5 @@ https://github.com/v2tec/watchtower
 # Donations
 
 I am supporting this image in my spare time and would be very happy about some donations to keep this going. You can support me by sending some XMR to: `89HEKdUFM2dJGDFLpV7CoLUW1Swux7iBMMCXMC5y3U2DihmrbYh6AEoanoHb8VPJrCDLTa9FJfooHdz1rGZH9L342TXwZh7`
+
+or some wow to: `WW2e6yChuwLetvKr734mZU5m86gBkmA3vMBZuhEaMhQMcRHx4PzLFKFRZMuBodCnXUCebz8UgECdxhASbU8JeywG2bfJSqC1M`
