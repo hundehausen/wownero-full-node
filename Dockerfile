@@ -2,7 +2,7 @@ FROM --platform=linux/amd64 ubuntu:22.04 AS build
 LABEL author="hundehausen" \
       maintainer="hundehausen"
       
-ENV WOWNERO_VERSION=0.11.0.1 WOWNERO_SHA256=a011cd6b637f5ed7298b03daa9b6ba239143e14626a4da567e2a0943d69f4c61
+ENV WOWNERO_VERSION=0.11.0.3 WOWNERO_SHA256=e31d9f1e76d5c65e774c4208dfd1a18cfeda9f3822facaf1d114459ca9a38320
 
 RUN apt-get update && apt-get install -y curl bzip2
 
