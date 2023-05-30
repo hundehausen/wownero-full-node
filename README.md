@@ -11,6 +11,7 @@ Disclaimer: I am not updating this image regularly. If you want to use it, you s
 ## Release Notes
 ```
 04.04.2023: initial release
+30.05.2023: Kunty Karen, Point Release v0.11.0.3 [Read the release notes, there are breaking changes!]([https://git.wownero.com/wownero/wownero/releases](https://git.wownero.com/wownero/wownero/releases/tag/v0.11.0.3))
 ```
 
 ## Updating
