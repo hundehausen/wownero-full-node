@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y curl bzip2
 
 WORKDIR /root
 
-RUN curl -L -o wownero-x86_64-linux-gnu-v$WOWNERO_VERSION.tar.bz2 https://git.wownero.com/attachments/64602dc5-5906-4600-89ef-9b4c0bdc0980 &&\
+RUN curl -L -o wownero-x86_64-linux-gnu-v$WOWNERO_VERSION.tar.bz2 https://git.wownero.com/attachments/c1de2873-a72d-41d3-a807-d36e8305ea3f &&\
   echo "$WOWNERO_SHA256  wownero-x86_64-linux-gnu-v$WOWNERO_VERSION.tar.bz2" | sha256sum -c - &&\
   tar -xvf wownero-x86_64-linux-gnu-v$WOWNERO_VERSION.tar.bz2 &&\
   rm wownero-x86_64-linux-gnu-v$WOWNERO_VERSION.tar.bz2 &&\
