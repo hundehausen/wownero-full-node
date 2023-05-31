@@ -33,4 +33,4 @@ EXPOSE 34568
 HEALTHCHECK --interval=30s --timeout=5s CMD wget --no-verbose --tries=1 --spider http://localhost:34568/get_info || exit 
 
 ENTRYPOINT ["./wownerod"]
-CMD ["--p2p-bind-ip=0.0.0.0", "--p2p-bind-port=34567", "--non-interactive", "--restricted-rpc", "--rpc-bind-ip=0.0.0.0", "--rpc-bind-port=34568", "--confirm-external-bind", "--out-peers=16"]
+CMD ["--p2p-bind-ip=0.0.0.0", "--p2p-bind-port=34567", "--non-interactive", "--restricted-rpc", "--rpc-bind-ip=0.0.0.0", "--rpc-bind-port=34568", "--confirm-external-bind", "--out-peers=32", "--enforce-dns-checkpointing", "--add-priority-node=143.198.195.132:34567", "--add-priority-node=134.122.53.193:34567", "--add-priority-node=204.48.28.218:34567"]
