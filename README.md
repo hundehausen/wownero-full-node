@@ -17,14 +17,15 @@ Disclaimer: I am not updating this image regularly. If you want to use it, you s
 04.04.2023: initial release
 30.05.2023: Kunty Karen, Point Release v0.11.0.3
 31.05.2023: new commands for running wownerod
+13.10.2023: Point Release v0.11.1.0
 ```
 
 ## Updating
 Manual Way
 ```
+docker pull hundehausen/wownero-full-node:latest
 docker stop wownerod
 docker rm wownerod
-docker pull hundehausen/wownero-full-node
 docker run -tid --restart=always -v wowchain:/home/wownero/.wownero -p 34567:34567 -p 34568:34568 --name=wownerod hundehausen/wownero-full-node
 ```
 
